@@ -6,8 +6,8 @@ interface Mines {
   setMinesRatio: Dispatch<SetStateAction<number>>,
   generateDiamondsAndMinesArray: () => string[],
   setIncluded: Dispatch<SetStateAction<number[]>>,
-  bet: string,
-  setBet: Dispatch<SetStateAction<string>>
+  bet: String,
+  setBet: Dispatch<SetStateAction<String>>
 }
 
 const Bet = ({ minesRatio, bet, setMinesRatio, setBet, setIncluded, generateDiamondsAndMinesArray }: Mines) => {
